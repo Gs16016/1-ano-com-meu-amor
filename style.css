@@ -1,0 +1,47 @@
+body {
+  background: radial-gradient(circle, #ff9aa2, #ffb6b9);
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.instrucao {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.botao-coracao {
+  font-size: 2em;
+  background: white;
+  color: #ff4d6d;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  padding: 10px;
+}
+
+.botao-coracao:hover {
+  transform: scale(1.1);
+}
+
+#mensagem {
+  margin-top: 30px;
+  font-size: 1.3em;
+  color: #fff8f8;
+  min-height: 40px;
+}
